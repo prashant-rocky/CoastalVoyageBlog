@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>CoastalVoyageBlog | home</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar newNav navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/headerLogo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                    <a href="contact.html">
+                        <button class="myBtn  ms-3">Contact</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="slider text-white text-center">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active mainSlider position-relative"
+                    style="background: url(assets/images/banner_1.jpg) center/cover no-repeat; min-height: 100vh;">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100 px-3">
+                        <h6 class="text-uppercase fs-6">Welcome to CoastalVoyageBlog blogs</h6>
+                        <a href="driftwood-beach.html">
+                            <h1 class="fw-bold display-5">Driftwood Beach – Georgia’s <br> Surreal Coastal Wonderland</h1>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item mainSlider"
+                    style="background: url(assets/images/banner_2.jpg) center/cover no-repeat; min-height: 100vh;">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100 px-3 ">
+                        <h6 class="text-uppercase fs-6">Welcome to CoastalVoyageBlog blogs</h6>
+                        <a href="pfeiffer-beach.html">
+                            <h1 class="fw-bold display-5">Pfeiffer Beach – California’s <br> Purple Sand Treasure</h1>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item mainSlider"
+                    style="background: url(assets/images/banner_3.jpg) center/cover no-repeat; min-height: 100vh;">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100 px-3 ">
+                        <h6 class="text-uppercase fs-6">Welcome to CoastalVoyageBlog blogs</h6>
+                        <a href="siesta-key-beach.html">
+                            <h1 class="fw-bold display-5">Siesta Key Beach – <br> Florida’s Quartz-Crystal Paradise</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="Blog py-5 text-center">
+        <div class="container">
+            <h3>Latest Blog</h3>
+            <p>Discover our newest beach stories from across the USA—featuring hidden coastal gems, travel tips, and breathtaking seaside destinations to inspire your next adventure.</p>
+            <div class="row">
+                <div class="col-md-12 py-3">
+                    <div class="blogBox">
+                        <div class="blogImg">
+                            <img src="assets/images/blog1.jpg" alt="error">
+                        </div>
+                        <div class="blogContent">
+                            <p><span>author : Admin</span> <span class="ps-5"><strong>Date : 14/11/2025</strong></span></p>
+                            <a href="driftwood-beach.html"><h3>Driftwood Beach – Georgia’s Surreal Coastal Wonderland</h3></a>
+                            <p>A beach filled with natural driftwood sculptures, perfect for photographers and travelers seeking a one-of-a-kind shoreline experience.</p>
+                            <a href="driftwood-beach.html"><button class="mainBtn">Read More</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 py-3">
+                    <div class="blogBox">
+                        <div class="blogImg">
+                            <img src="assets/images/blog2.avif" alt="error">
+                        </div>
+                        <div class="blogContent">
+                            <p><span>author : Admin</span> <span class="ps-5"><strong>Date : 15/11/2025</strong></span></p>
+                            <a href="pfeiffer-beach.html"><h3>Pfeiffer Beach – California’s Purple Sand Treasure</h3></a>
+                            <p>Home to rare purple sands and a stunning rock arch, Pfeiffer Beach offers one of the most unusual and magical coastal landscapes in the U.S.</p>
+                            <a href="pfeiffer-beach.html"><button class="mainBtn">Read More</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 py-3">
+                    <div class="blogBox">
+                        <div class="blogImg">
+                            <img src="assets/images/blog3.jpg" alt="error">
+                        </div>
+                        <div class="blogContent">
+                            <p><span>author : Admin</span> <span class="ps-5"><strong>Date : 15/11/2025</strong></span></p>
+                            <a href="siesta-key-beach.html"><h3>Siesta Key Beach – Florida’s Quartz-Crystal Paradise</h3></a>
+                            <p>Famous for its cool-to-the-touch white quartz sand, Siesta Key feels like walking on powdered sugar—an unforgettable Gulf Coast highlight.</p>
+                            <a href="siesta-key-beach.html"><button class="mainBtn">Read More</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 py-3">
+                    <div class="blogBox">
+                        <div class="blogImg">
+                            <img src="assets/images/blog4.webp" alt="error">
+                        </div>
+                        <div class="blogContent">
+                            <p><span>author : Admin</span> <span class="ps-5"><strong>Date : 15/11/2025</strong></span></p>
+                            <a href="lanikai-beach.html"><h3>Lanikai Beach – Hawaii’s Lagoon of Turquoise Dreams</h3></a>
+                            <p>Soft sand, calm aqua-blue water, and views of the twin Mokulua Islands make Lanikai one of the most breathtaking tropical beaches in America.</p>
+                            <a href="lanikai-beach.html"><button class="mainBtn">Read More</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 py-3">
+                    <div class="blogBox">
+                        <div class="blogImg">
+                            <img src="assets/images/blog5.jpg" alt="error">
+                        </div>
+                        <div class="blogContent">
+                            <p><span>author : Admin</span> <span class="ps-5"><strong>Date : 15/11/2025</strong></span></p>
+                            <a href="rialto-beach.html"><h3>Rialto Beach – Washington’s Wild Ocean Frontier</h3></a>
+                            <p>Towering sea stacks, roaring waves, and driftwood logs give Rialto Beach a dramatic wilderness vibe unlike any other West Coast shoreline.</p>
+                            <a href="rialto-beach.html"><button class="mainBtn">Read More</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 py-3">
+                    <div class="blogBox">
+                        <div class="blogImg">
+                            <img src="assets/images/blog6.webp" alt="error">
+                        </div>
+                        <div class="blogContent">
+                            <p><span>author : Admin</span> <span class="ps-5"><strong>Date : 15/11/2025</strong></span></p>
+                            <a href="cape-cod-national-seashore.html"><h3>Cape Cod National Seashore – Massachusetts’ Endless Atlantic Escape</h3></a>
+                            <p>Miles of protected coastline, charming lighthouses, dunes, and coastal trails create the perfect blend of adventure and tranquility.</p>
+                            <a href="cape-cod-national-seashore.html"><button class="mainBtn">Read More</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-white pt-5 border-top">
+        <div class="container">
+            <div class="row">
+                <!-- Logo + Description -->
+                <div class="col-md-3">
+                    <div class="footerLogo">
+                        <img src="assets/images/logo.png" alt="error">
+                        <p class="py-3">
+                            CoastalVoyageBlog shares inspiring beach guides, travel tips, and ocean experiences from across the USA. Our mission is to help you explore America’s most beautiful coastlines with ease and excitement.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="col-md-3 px-md-5">
+                    <h3 class="py-3">Useful Links</h3>
+                    <p><a href="index.html" class="text-decoration-none">Home</a></p>
+                    <p><a href="about.html" class="text-decoration-none">About</a></p>
+                    <p><a href="Blog.html" class="text-decoration-none">Blogs</a></p>
+                    <p><a href="contact.html" class="text-decoration-none">Contact</a></p>
+                </div>
+
+                <!-- Legal Information -->
+                <div class="col-md-3">
+                    <h3 class="py-3">Legal Information</h3>
+                    <p><a href="privacy.html" class="text-decoration-none">Privacy Policy</a></p>
+                    <p><a href="disclaimer.html" class="text-decoration-none">Disclaimer</a></p>
+                    <p><a href="terms.html" class="text-decoration-none">Terms & Conditions</a></p>
+                </div>
+
+                <!-- Opening Hours -->
+                <div class="col-md-3">
+                    <h3 class="py-3">Contact Us</h3>
+                    <p><i class="fas fa-location-dot"></i>California, USA
+                    </p>
+                    <p><i class="fas fa-phone"></i>+1 45726 83764</p>
+                    <p><i class="fas fa-envelope"></i> Email: info@coastalvoyageblog.site</p>
+
+                </div>
+            </div>
+            <hr>
+            <!-- Bottom Row -->
+            <div class="row w-100 text-center">
+                <div class="col-md-12">
+                    <div class="text-center py-3">
+                        <p class="mb-0">© 2025 CoastalVoyageBlog. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ✅ Bootstrap JS bundle (required for toggler & dropdowns) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
